@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-root',
-    template: `
+  selector: 'app-root',
+  template: `
     Hello {{ city }}, {{ 1 + 1 }}
   `,
-    styles: `
+  styles: `
     :host {
-    color: #a144eb;
+      color: #a144eb;
     }
   `,
 })
 export class App {
-    city = 'Antwerp'
+  city = 'Antwerp' //TS type inference
 }
