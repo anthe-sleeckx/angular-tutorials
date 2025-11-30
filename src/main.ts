@@ -7,9 +7,9 @@ import { appConfig } from './app/app.config';
 //import { App } from './app/03Conditionals/component';
 //import { App } from './app/04Loops/component';
 //import { App } from './app/05PropBinding/component';
+//import { App } from './app/06EventHandling/component';
 //#endregion
 
-import { App } from './app/06EventHandling/component';
-
+import { App } from './app/07InputProp/component';
 bootstrapApplication(App, appConfig)
   .catch((err) => console.error(err));
