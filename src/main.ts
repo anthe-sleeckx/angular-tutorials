@@ -9,7 +9,8 @@ import { appConfig } from './app/app.config';
 //import { App } from './app/05PropBinding/component';
 //import { App } from './app/06EventHandling/component';
 //import { App } from './app/07InputProp/component';
-import { App } from './app/08OutputProp/component';
+//import { App } from './app/08OutputProp/component';
+import { App } from './app/09Defer/app';
 //#endregion
 
 bootstrapApplication(App, appConfig)
