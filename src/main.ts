@@ -11,7 +11,8 @@ import { appConfig } from './app/app.config';
 //import { App } from './app/07InputProp/component';
 //import { App } from './app/08OutputProp/component';
 //import { App } from './app/09Defer/app';
-import { App } from './app/10OptimizedImages/user'
+//import { App } from './app/10OptimizedImages/user'
+import { App } from './app/11Routing/app';
 //#endregion
 
 bootstrapApplication(App, appConfig)
