@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 
 @Component({
-    selector: 'app-root',
-    template: `
+  selector: 'app-root',
+  template: `
     <p>Username: {{ username }}</p>
     <p>Preferred Framework:</p>
     <ul>
@@ -17,10 +17,10 @@ import { NgOptimizedImage } from '@angular/common';
       </li>
     </ul>
   `,
-    imports: [NgOptimizedImage],
+  imports: [NgOptimizedImage],
 })
-export class App {
-    logoUrl = 'favicon.ico';
-    logoAlt = 'Angular logo';
-    username = 'youngTech';
+export class Images {
+  logoUrl = 'favicon.ico';
+  logoAlt = 'Angular logo';
+  username = 'youngTech';
 }
