@@ -10,7 +10,7 @@ import { Component } from "@angular/core";
 })
 
 
-export class App {
+export class Loops {
     users = [
         { id: 0, name: 'Anthe' },
         { id: 1, name: 'Jef' },

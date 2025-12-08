@@ -11,6 +11,6 @@ import { Component } from '@angular/core';
     }
   `,
 })
-export class App {
+export class Components {
   city = 'Antwerp' //TS type inference
 }

@@ -9,7 +9,7 @@ import { Child } from './child';
   `,
     imports: [Child],
 })
-export class App {
+export class OutputProp {
     items = new Array();
 
     addItem(item: string) {

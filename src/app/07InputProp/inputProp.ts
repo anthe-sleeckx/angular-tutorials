@@ -9,6 +9,4 @@ import { User } from "./user";
     imports: [User]
 })
 
-export class App {
-
-}
+export class InputProp { }

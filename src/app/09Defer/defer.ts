@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { Comments } from './comments';
 
 @Component({
-    selector: 'app-root',
-    template: `
+  selector: 'app-root',
+  template: `
     <div>
       <h1>How I feel about Angular</h1>
       
@@ -26,6 +26,6 @@ import { Comments } from './comments';
 
     </div>
   `,
-    imports: [Comments],
+  imports: [Comments],
 })
-export class App { }
+export class Defer { }

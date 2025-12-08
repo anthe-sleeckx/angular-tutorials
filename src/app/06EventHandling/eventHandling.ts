@@ -10,7 +10,7 @@ import { Component } from "@angular/core";
     `
 })
 
-export class App {
+export class EventHandling {
     message = '';
     showSecretMessage() {
         this.message = 'Way to go';

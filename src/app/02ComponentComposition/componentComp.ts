@@ -20,4 +20,4 @@ export class User {
   `,
   imports: [User],
 })
-export class App { }
+export class ComponentComp { }

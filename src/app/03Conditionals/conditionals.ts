@@ -12,6 +12,6 @@ import { Component } from "@angular/core";
     `,
 })
 
-export class App {
+export class Conditionals {
     isServerRunning = true;
 }
