@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
       Favorite Framework:
       <input id="framework" type="text" [(ngModel)]="favoriteFramework" />
     </label>
+    <button (click)="showFramework()">Show Framework</button>
   `,
   imports: [FormsModule],
 })
@@ -17,4 +18,7 @@ import { FormsModule } from '@angular/forms';
 export class UserForms {
   favoriteFramework = '';
   username = 'anthe';
+  showFramework() {
+    alert(this.favoriteFramework);
+  }
 }
