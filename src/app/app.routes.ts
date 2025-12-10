@@ -10,8 +10,9 @@ import { Loops } from './04Loops/loops';
 import { PropBinding } from './05PropBinding/propBinding';
 import { EventHandling } from './06EventHandling/eventHandling';
 import { InputProp } from './07InputProp/inputProp';
-import { OutputProp } from './08OutputProp/outputPRop';
+import { OutputProp } from './08OutputProp/outputProp';
 import { Defer } from './09Defer/defer';
+import { ReactiveForm } from './13 ReactiveForms/reactiveforms';
 
 export const routes: Routes = [
     {
@@ -71,6 +72,11 @@ export const routes: Routes = [
         path: 'forms',
         title: '12 Forms',
         component: UserForms
+    },
+    {
+        path: 'reactiveforms',
+        title: '13 Reactive Forms',
+        component: ReactiveForm
     },
 
 ];

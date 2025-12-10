@@ -30,6 +30,8 @@ import { RouterLink, RouterOutlet } from "@angular/router";
             <a routerLink="/routing">11 Routing</a>
             |
             <a routerLink="/forms">12 Forms</a>
+            |
+            <a routerLink="/reactiveforms">13 Reactive Forms</a>
         </nav>
         <router-outlet />
     `,
