@@ -13,6 +13,7 @@ import { InputProp } from './07InputProp/inputProp';
 import { OutputProp } from './08OutputProp/outputProp';
 import { Defer } from './09Defer/defer';
 import { ReactiveForm } from './13 ReactiveForms/reactiveforms';
+import { InjService } from './14InjService/injServices';
 
 export const routes: Routes = [
     {
@@ -24,31 +25,38 @@ export const routes: Routes = [
         path: 'components',
         title: '01 Components',
         component: Components
-    }, {
+    },
+    {
         path: 'composition',
         title: '02 Component Composition',
         component: ComponentComp
-    }, {
+    },
+    {
         path: 'conditionals',
         title: '03 Conditionals',
         component: Conditionals
-    }, {
+    },
+    {
         path: 'loops',
         title: '04 Loops',
         component: Loops
-    }, {
+    },
+    {
         path: 'prop',
         title: '05 Property Binding',
         component: PropBinding
-    }, {
+    },
+    {
         path: 'event',
         title: '06 Event Handling',
         component: EventHandling
-    }, {
+    },
+    {
         path: 'input',
         title: '07 Input Properties',
         component: InputProp
-    }, {
+    },
+    {
         path: 'output',
         title: '08 Output Properties',
         component: OutputProp
@@ -77,6 +85,11 @@ export const routes: Routes = [
         path: 'reactiveforms',
         title: '13 Reactive Forms',
         component: ReactiveForm
+    },
+    {
+        path: 'service',
+        title: '14 Injectable Service',
+        component: InjService
     },
 
 ];

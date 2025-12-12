@@ -32,10 +32,13 @@ import { RouterLink, RouterOutlet } from "@angular/router";
             <a routerLink="/forms">12 Forms</a>
             |
             <a routerLink="/reactiveforms">13 Reactive Forms</a>
+            |
+            <a routerLink="/service">14 Injectable Service</a>
         </nav>
         <router-outlet />
     `,
     imports: [RouterLink, RouterOutlet],
 })
 
-export class App { }
+export class App {
+}
