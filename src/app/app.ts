@@ -33,7 +33,9 @@ import { RouterLink, RouterOutlet } from "@angular/router";
             |
             <a routerLink="/reactiveforms">13 Reactive Forms</a>
             |
-            <a routerLink="/service">14 Injectable Service</a>
+            <a routerLink="/service">14 Injectable Service</a> 
+            |
+            <a routerLink="/di">15 Dependency Injection</a>
         </nav>
         <router-outlet />
     `,

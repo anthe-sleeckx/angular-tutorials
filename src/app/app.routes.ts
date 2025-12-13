@@ -14,6 +14,7 @@ import { OutputProp } from './08OutputProp/outputProp';
 import { Defer } from './09Defer/defer';
 import { ReactiveForm } from './13 ReactiveForms/reactiveforms';
 import { InjService } from './14InjService/injServices';
+import { DI } from './15DI/app';
 
 export const routes: Routes = [
     {
@@ -90,6 +91,11 @@ export const routes: Routes = [
         path: 'service',
         title: '14 Injectable Service',
         component: InjService
+    },
+    {
+        path: 'di',
+        title: '15 Dependency Injection',
+        component: DI
     },
 
 ];
