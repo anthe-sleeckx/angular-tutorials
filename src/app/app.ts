@@ -36,6 +36,8 @@ import { RouterLink, RouterOutlet } from "@angular/router";
             <a routerLink="/service">14 Injectable Service</a> 
             |
             <a routerLink="/di">15 Dependency Injection</a>
+            |
+            <a routerLink="/pipes">16 Pipes</a>
         </nav>
         <router-outlet />
     `,

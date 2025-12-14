@@ -15,6 +15,7 @@ import { Defer } from './09Defer/defer';
 import { ReactiveForm } from './13 ReactiveForms/reactiveforms';
 import { InjService } from './14InjService/injServices';
 import { DI } from './15DI/app';
+import { Pipes } from './16Pipes/pipes';
 
 export const routes: Routes = [
     {
@@ -96,6 +97,11 @@ export const routes: Routes = [
         path: 'di',
         title: '15 Dependency Injection',
         component: DI
+    },
+    {
+        path: 'pipes',
+        title: '16 Pipes',
+        component: Pipes
     },
 
 ];
