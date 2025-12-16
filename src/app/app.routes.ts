@@ -16,6 +16,7 @@ import { ReactiveForm } from './13 ReactiveForms/reactiveforms';
 import { InjService } from './14InjService/injServices';
 import { DI } from './15DI/app';
 import { Pipes } from './16Pipes/pipes';
+import { CustomPipes } from './17CustomPipes/app';
 
 export const routes: Routes = [
     {
@@ -102,6 +103,11 @@ export const routes: Routes = [
         path: 'pipes',
         title: '16 Pipes',
         component: Pipes
+    },
+    {
+        path: 'custompipes',
+        title: '17 Custom Pipes',
+        component: CustomPipes
     },
 
 ];

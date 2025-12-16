@@ -38,6 +38,8 @@ import { RouterLink, RouterOutlet } from "@angular/router";
             <a routerLink="/di">15 Dependency Injection</a>
             |
             <a routerLink="/pipes">16 Pipes</a>
+            |
+            <a routerLink="/custompipes">17 Custom Pipes</a>
         </nav>
         <router-outlet />
     `,
