@@ -109,5 +109,4 @@ export const routes: Routes = [
         title: '17 Custom Pipes',
         component: CustomPipes
     },
-
 ];
